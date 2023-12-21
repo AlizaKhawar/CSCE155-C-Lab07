@@ -151,3 +151,33 @@ return max;
 int getIndexOfMax(const int *arr, int size) {
 
  int max=arr[0];
+
+ for(int i=1;i<size;i++){
+
+if (max<arr[i]){
+
+max=arr[i];
+  
+}
+}
+
+for(int i=0;i<size;i++){
+
+if(max==arr[i]){
+
+return i;
+
+}
+
+} 
+
+}
+
+
+//defination of fiterThreshold(); function
+
+int * filterThreshold(const int *arr, int size, int threshold, int *resultSize) {
+
+int count=0;
+
+for(int i=0;i<size;i++){
