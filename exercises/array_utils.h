@@ -20,6 +20,7 @@ void printTable(int **table, int n, int m);
  * This function assumes that the random number
  * generator has already been seeded.
  */
+
 int * generateRandomArray(int size);
 
 /**
@@ -37,33 +38,3 @@ void freeTable(int **table, int n);
  * TODO: add your own documentation
  */
 double getMean(const int *arr, int size);
-
-/**
- * TODO: add your own documentation
- */
-int getMin(const int *arr, int size);
-
-/**
- * TODO: add your own documentation
- */
-int getIndexOfMin(const int *arr, int size);
-
-/**
- * TODO: add your own documentation
- */
-int getMax(const int *arr, int size);
-
-/**
- * TODO: add your own documentation
- */
-int getIndexOfMax(const int *arr, int size);
-
-/**
- * TODO: add your own documentation
- */
-int * filterThreshold(const int *arr, int size, int threshold, int *resultSize);
-
-/**
- * TODO: add your own documentation
- */
-int **createMultiplicationTable(int n, int m);
