@@ -199,3 +199,20 @@ if(dyn_arr==NULL){
   exit(1);
 
 }
+for (int i = 0; i < size; i++)
+{
+  if(arr[i] >= threshold) {
+
+dyn_arr[index]=arr[i];
+
+index++;
+
+  }
+
+}
+return dyn_arr;  
+}
+
+int **createMultiplicationTable(int n, int m) {
+  //TODO: implement
+}
