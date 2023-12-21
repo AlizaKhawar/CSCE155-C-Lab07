@@ -61,3 +61,19 @@ int threshold;
 
 printf("\n\nEnter Value for threshold : ");
 scanf("%d",&threshold)
+
+int res_size;
+
+int *ptr = filterThreshold(array , size , threshold , &res_size); 
+
+printf("\nResult size is %d and elements greator or equal than %d are : ",res_size,threshold);
+
+for(int i=0;i<res_size;i++){
+
+printf("%d ",ptr[i]);
+
+}
+
+  return 0;
+
+}
