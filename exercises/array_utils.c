@@ -25,3 +25,14 @@ void printTable(int **table, int n, int m) {
   }
   return;
 }
+
+int * generateRandomArray(int size) {
+  if(size < 0) {
+    return NULL;
+  }
+  int* randomArr = (int*) malloc(4*size);
+  for(int i=0; i<size; i++) {
+    randomArr[i] = rand() % 100;
+  }
+  return randomArr;
+}
