@@ -48,3 +48,13 @@ int getSum(int *arr, int size) {
   }
   return total;
 }
+
+void freeTable(int **table, int n) {
+  if(table == NULL) {
+    return;
+  }
+  for(int i=0; i<n; i++) {
+    free(table[i]);
+  }
+  free(table);
+}
