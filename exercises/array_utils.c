@@ -110,3 +110,23 @@ min=arr[i];
 }
 
 }
+
+for(int i=0;i<size;i++){
+
+if(min==arr[i]){
+
+return i;
+
+}
+
+
+}
+ 
+}
+
+//defination of getMax(); function
+
+
+int getMax(const int *arr, int size) {
+
+int max=arr[0];
