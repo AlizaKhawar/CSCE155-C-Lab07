@@ -58,3 +58,22 @@ void freeTable(int **table, int n) {
   }
   free(table);
 }
+
+double getMean(const int *arr, int size) {
+
+double avg;
+
+int sum=0;
+
+  for(int i=0;i<size;i++){
+
+sum=sum+ *arr;
+arr++;
+
+  }
+
+avg = sum/size;
+
+  return avg;
+
+}
