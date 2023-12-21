@@ -181,3 +181,21 @@ int * filterThreshold(const int *arr, int size, int threshold, int *resultSize) 
 int count=0;
 
 for(int i=0;i<size;i++){
+  if(arr[i] >= threshold){
+
+count++;
+
+}
+}
+int *dyn_arr = (int*) malloc(4*count); 
+
+*resultSize = count;
+
+int index=0;
+
+if(dyn_arr==NULL){
+
+  printf("\nMemory Allocation Error\n");
+  exit(1);
+
+}
