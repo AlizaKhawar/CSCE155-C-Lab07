@@ -55,3 +55,15 @@ int getMax(const int *arr, int size);
 
 /**
  * TODO: add your own documentation
+ *  */
+int getIndexOfMax(const int *arr, int size);
+
+/**
+ * TODO: add your own documentation
+ */
+int * filterThreshold(const int *arr, int size, int threshold, int *resultSize);
+
+/**
+ * TODO: add your own documentation
+ */
+int **createMultiplicationTable(int n, int m);
