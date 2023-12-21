@@ -38,3 +38,20 @@ void freeTable(int **table, int n);
  * TODO: add your own documentation
  */
 double getMean(const int *arr, int size);
+/**
+ * TODO: add your own documentation
+ */
+int getMin(const int *arr, int size);
+
+/**
+ * TODO: add your own documentation
+ */
+int getIndexOfMin(const int *arr, int size);
+
+/**
+ * TODO: add your own documentation
+ */
+int getMax(const int *arr, int size);
+
+/**
+ * TODO: add your own documentation
