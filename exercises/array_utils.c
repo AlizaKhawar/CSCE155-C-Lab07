@@ -15,3 +15,13 @@ void printArray(const int *arr, int n) {
   printf("%d ]\n", arr[n-1]);
   return;
 }
+void printTable(int **table, int n, int m) {
+  if(table == NULL) {
+    printf("[null]\n");
+    return;
+  }
+  for(int i=0; i<n; i++) {
+    printArray(table[i], m);
+  }
+  return;
+}
